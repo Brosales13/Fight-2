@@ -1,43 +1,37 @@
 //
 //  ContentView.swift
-//  Fight2
+//  Fight
 //
-//  Created by Brian Rosales on 6/5/22.
+//  Created by Brian Rosales on 5/25/22.
 //
 
 import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @EnvironmentObject var data: DataModel
+
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        
+        ZStack {
+            if data.enableAR {ARDisplayView()}
+            else {Spacer()}
+            HStack {
+                VStack {
+                    Spacer()
+                    ARUIView()
+                }
+            }
+        }
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
-        return arView
-        
-    }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
-}
 
 #if DEBUG
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView() .environmentObject(DataModel())
+           
     }
 }
 #endif

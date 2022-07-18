@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Fight2
+//  Fight
 //
-//  Created by Brian Rosales on 6/5/22.
+//  Created by Brian Rosales on 5/25/22.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = UIHostingController(rootView: contentView)
+        window.rootViewController = UIHostingController(rootView: contentView.environmentObject(DataModel.shared))
         self.window = window
         window.makeKeyAndVisible()
         return true

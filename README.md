@@ -7,7 +7,6 @@ Google Drive Link: https://drive.google.com/drive/folders/17a5ik3DA3r2mOrU5ONE2a
 
 
 
-<"![Fight 2](https://user-images.githubusercontent.com/40813000/180304292-5ba1f323-e411-45fc-b116-79e18e2ad4dc.gif)
-" width="250" height="500"/>
+![Fight 2](https://user-images.githubusercontent.com/40813000/180304292-5ba1f323-e411-45fc-b116-79e18e2ad4dc.gif)
 
 

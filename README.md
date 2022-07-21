@@ -8,4 +8,5 @@ Google Drive Link: https://drive.google.com/drive/folders/17a5ik3DA3r2mOrU5ONE2a
 
 
 
-img src="[/images/output/video1.gif](https://user-images.githubusercontent.com/40813000/180304292-5ba1f323-e411-45fc-b116-79e18e2ad4dc.gif)" width="250" height="500"/>
+
+![Fight 2](https://user-images.githubusercontent.com/40813000/180327293-c4ce136b-70ee-40b5-b19a-d4b9121c6d1c.gif)

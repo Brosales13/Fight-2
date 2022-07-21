@@ -10,4 +10,3 @@ Google Drive Link: https://drive.google.com/drive/folders/17a5ik3DA3r2mOrU5ONE2a
 
 
 
-![Simulator Screen Recording - iPhone 12 - 2022-07-19 at 17 20 21](https://user-images.githubusercontent.com/40813000/180293646-9fd5ef2d-8bd4-4f78-bffd-ae61033d85e6.gif)

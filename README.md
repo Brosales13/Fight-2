@@ -6,7 +6,7 @@ Google Drive Link: https://drive.google.com/drive/folders/17a5ik3DA3r2mOrU5ONE2a
 <br> Make sure to place that file in the Preview Content folder. Which is located,  `Fight2/Preview Content`. Enjoy the game!
 
 This App was created to learning the following:
-+ SwiftUI, RealityKit,
++ SwiftUI and RealityKit
 
 
 
